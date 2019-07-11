@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.huoda.left_ship.AddNoteActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="#00000000"
+        android:gravity="center_horizontal"
+        android:theme="@style/AppTheme.AppBarOverlay"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+
+            android:layout_gravity="center_horizontal"
+            android:background="@android:color/transparent"
+            android:gravity="center_horizontal"
+            app:popupTheme="@style/AppTheme.PopupOverlay"
+            app:title="公园植物管理系统"
+            tools:gravity="center_horizontal"
+            tools:layout_gravity="center_horizontal" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab_back2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="84dp"
+        android:layout_marginEnd="40dp"
+        android:backgroundTint="#3f51b5"
+        android:clickable="true"
+        android:elevation="4dp"
+        android:translationZ="30dp"
+        app:fab_size="normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="?android:attr/listChoiceIndicatorSingle" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="56dp">
+
+            <Button
+                android:id="@+id/bt_add_pre"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="336dp"
+                android:background="#1f000000"
+                android:text="添加"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="84dp"
+                android:layout_height="40dp"
+
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="184dp"
+                android:gravity="center"
+                android:text="日期"
+                android:textSize="18sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <EditText
+                android:id="@+id/et_tom_add_pre"
+                android:layout_width="214dp"
+                android:layout_height="80dp"
+                android:layout_marginStart="140dp"
+                android:layout_marginTop="232dp"
+                android:gravity="center"
+                android:hint="代办事项"
+                android:textSize="18sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="84dp"
+                android:layout_height="40dp"
+
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="232dp"
+                android:gravity="center"
+                android:text="待办"
+                android:textSize="18sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="84dp"
+                android:layout_height="40dp"
+
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="136dp"
+                android:gravity="center"
+                android:text="序号"
+                android:textSize="18sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="84dp"
+                android:layout_height="40dp"
+                android:layout_marginBottom="8dp"
+
+                android:layout_marginLeft="8dp"
+                android:gravity="center"
+                android:text="TextView"
+                android:textSize="18sp"
+                android:visibility="gone"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <TextView
+                android:id="@+id/tv_date_add_id"
+                android:layout_width="84dp"
+                android:layout_height="40dp"
+
+                android:layout_marginStart="136dp"
+                android:layout_marginTop="136dp"
+                android:gravity="center"
+                android:text="id"
+                android:textSize="18sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/et_date"
+                android:layout_width="140dp"
+                android:layout_height="40dp"
+
+                android:layout_marginStart="136dp"
+                android:layout_marginTop="184dp"
+                android:gravity="center"
+                android:onClick="onClick"
+                android:text="20180808"
+                android:textSize="18sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+        </android.support.constraint.ConstraintLayout>
+
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

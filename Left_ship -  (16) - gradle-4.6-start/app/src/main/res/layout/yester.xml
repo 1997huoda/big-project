@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.huoda.left_ship.MainActivity"
+    tools:showIn="@layout/app_bar_main"
+    android:orientation="vertical"
+    >
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/tv_yes_id"
+            android:layout_width="84dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="136dp"
+            android:layout_marginTop="136dp"
+            android:gravity="center"
+            android:text="id"
+            android:textSize="18sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+        <TextView
+            android:id="@+id/tv_yes_id2"
+            android:layout_width="84dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="136dp"
+            android:gravity="center"
+            android:text="id"
+            android:textSize="18sp"
+            app:layout_constraintStart_toEndOf="@+id/tv_yes_id"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+        <TextView
+            android:id="@+id/tv_date_yes"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="136dp"
+            android:layout_marginTop="184dp"
+            android:gravity="center"
+            android:text="yyyy-MM-dd"
+            android:textSize="18sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tv_yes_list"
+            android:layout_width="214dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="140dp"
+            android:layout_marginTop="232dp"
+            android:gravity="center"
+            android:text="@string/list_none"
+            android:textSize="18sp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+        <TextView
+            android:id="@+id/tv_yes_pre"
+            android:layout_width="214dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="136dp"
+            android:layout_marginTop="332dp"
+            android:gravity="center"
+            android:text="@string/pre_none"
+            android:textSize="18sp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+        <TextView
+            android:layout_width="84dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="184dp"
+            android:gravity="center"
+            android:text="日期"
+            android:textSize="18sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+        <TextView
+            android:layout_width="84dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="232dp"
+            android:gravity="center"
+            android:text="待办"
+            android:textSize="18sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+        <TextView
+            android:layout_width="84dp"
+            android:layout_height="40dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginStart="8dp"
+            android:gravity="center"
+            android:text="TextView"
+            android:textSize="18sp"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"/>
+
+        <TextView
+            android:layout_width="84dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="136dp"
+            android:gravity="center"
+            android:text="序号"
+            android:textSize="18sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+    </android.support.constraint.ConstraintLayout>
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="昨天"
+        android:visibility="gone"/>
+</LinearLayout>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="function">
+        <menu
+            >
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_camera"
+                    android:icon="@drawable/ic_menu_camera"
+                    android:title="上报" />
+                <item
+                    android:id="@+id/nav_gallery"
+                    android:icon="@drawable/ic_menu_gallery"
+                    android:title="修改"
+                    android:visible="false" />
+                <item
+                    android:id="@+id/nav_slideshow"
+                    android:icon="@drawable/ic_menu_slideshow"
+                    android:title="日程" />
+                <item
+                    android:id="@+id/nav_manage"
+                    android:icon="@drawable/ic_menu_manage"
+                    android:title="查询"
+                    android:visible="false" />
+
+
+                <item
+                    android:id="@+id/nav_share"
+                    android:icon="@drawable/ic_menu_share"
+                    android:title="分享" />
+                <item
+                    android:id="@+id/nav_send"
+                    android:icon="@drawable/ic_menu_send"
+                    android:title="联系" />
+            </group>
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_IMUI"
+        android:icon="@drawable/qq2"
+        android:orderInCategory="90"
+        android:title="技术咨询"
+        android:visible="true"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_add"
+        android:icon="?android:attr/actionModePasteDrawable"
+        android:orderInCategory="90"
+        android:title="添加备忘录"
+        android:visible="false"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_help"
+        android:orderInCategory="100"
+        android:title="帮助"
+        app:showAsAction="never"/>
+</menu>

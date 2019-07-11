@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Black soil</string>
+
+    <string name="input_hint">发送消息</string>
+    <string name="message_click_hint">点击消息事件</string>
+    <string name="message_long_click_hint">长按消息事件</string>
+    <string name="avatar_click_hint">头像点击事件</string>
+
+    <string-array name="messages_array">
+
+
+        <item>你好</item>
+        <item>你好，在的</item>
+        <item>我想请问您现在西府海棠树干现在出现出现水渍状病斑是什么情况</item>
+        <item>好的，现在是四月份，从你说的情况来看可能是海棠腐烂病</item>
+        <item>那么请问这种情况，我们要怎么做？</item>
+        <item>你可以在病斑上刻纵横相间的刀痕，相距0.5厘米，深达木质部，然后喷涂杀菌剂</item>
+        <item>好的，谢谢！</item>
+        <item>注意如果五六月份出现树干长出许多黑色针状小突起，则需要剪掉病枝集中烧毁，剪口处涂抹防腐剂。</item>
+        <item>好的，再次感谢！</item>
+        <item>不客气！</item>
+
+
+    </string-array>
+</resources>

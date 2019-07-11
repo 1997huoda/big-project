@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Left_ship -  (16) - gradle-4.6-start.iml" filepath="$PROJECT_DIR$/Left_ship -  (16) - gradle-4.6-start.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chatinput/chatinput.iml" filepath="$PROJECT_DIR$/chatinput/chatinput.iml" />
+      <module fileurl="file://$PROJECT_DIR$/exampleui2/exampleui2.iml" filepath="$PROJECT_DIR$/exampleui2/exampleui2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/imui/imui.iml" filepath="$PROJECT_DIR$/imui/imui.iml" />
+    </modules>
+  </component>
+</project>
